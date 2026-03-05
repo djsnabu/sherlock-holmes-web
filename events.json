@@ -18,6 +18,24 @@
     "age": "K-18"
   },
   {
+    "date": "2026-03-19",
+    "weekday": "Torstai",
+    "title": "Standup!",
+    "description": "Rantinoja ja Koomikoiden Aatelisto",
+    "time": "18:00",
+    "price": "",
+    "age": ""
+  },
+  {
+    "date": "2026-03-20",
+    "weekday": "Perjantai",
+    "title": "Erika Dikman's Drag Karaoke",
+    "description": "Also Starring: Kelly Babah & Hoebizcus. Kaikki ovat tervetulleita lavalle!",
+    "time": "22:00 - 00:00",
+    "price": "5\u20ac",
+    "age": ""
+  },
+  {
     "date": "2026-03-21",
     "weekday": "Lauantai",
     "title": "Coco Jamboo 90's Party",
@@ -38,10 +56,46 @@
   {
     "date": "2026-04-04",
     "weekday": "Lauantai",
-    "title": "Sherlock Fiesta",
+    "title": "Sherlock Afro Fiesta",
     "description": "",
     "time": "22:00 - 04:00",
     "price": "5\u20ac",
     "age": "K-18"
+  },
+  {
+    "date": "2026-04-07",
+    "weekday": "Tiistai",
+    "title": "Dekkarimysteeri Sherlockissa",
+    "description": "Ratko mysteereit\u00e4 \u2014 yksin tai yhdess\u00e4 joukkueesi kanssa!",
+    "time": "18:00",
+    "price": "Vapaa p\u00e4\u00e4sy",
+    "age": ""
+  },
+  {
+    "date": "2026-04-23",
+    "weekday": "Torstai",
+    "title": "Standup!",
+    "description": "Rantinoja ja Koomikoiden Aatelisto",
+    "time": "18:00",
+    "price": "",
+    "age": ""
+  },
+  {
+    "date": "2026-05-05",
+    "weekday": "Tiistai",
+    "title": "Dekkarimysteeri Sherlockissa",
+    "description": "Ratko mysteereit\u00e4 \u2014 yksin tai yhdess\u00e4 joukkueesi kanssa!",
+    "time": "18:00",
+    "price": "Vapaa p\u00e4\u00e4sy",
+    "age": ""
+  },
+  {
+    "date": "2026-05-21",
+    "weekday": "Torstai",
+    "title": "Standup!",
+    "description": "Rantinoja ja Koomikoiden Aatelisto",
+    "time": "18:00",
+    "price": "",
+    "age": ""
   }
 ]

@@ -169,8 +169,8 @@ img {
 }
 
 .hero-logo {
-  width: 220px;
-  height: 220px;
+  width: 320px;
+  height: 320px;
   border-radius: 50%;
   margin-bottom: 24px;
   animation: fadeInUp 1s ease;
@@ -253,8 +253,10 @@ img {
 /* === Hours === */
 .hours-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 24px;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .hours-card {
@@ -470,6 +472,11 @@ img {
   margin-bottom: 16px;
 }
 
+.footer-credit {
+  font-size: 0.75rem;
+  opacity: 0.6;
+}
+
 .footer-social {
   display: flex;
   justify-content: center;
@@ -521,8 +528,8 @@ img {
   }
 
   .hero-logo {
-    width: 160px;
-    height: 160px;
+    width: 240px;
+    height: 240px;
   }
 
   .hero-tagline {
