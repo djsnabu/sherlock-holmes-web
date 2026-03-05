@@ -30,6 +30,7 @@
         <li><a href="#about">Meista</a></li>
         <li><a href="#hours">Aukioloajat</a></li>
         <li><a href="#services">Palvelut</a></li>
+        <li><a href="#events">Tapahtumat</a></li>
         <li><a href="#contact">Yhteystiedot</a></li>
       </ul>
     </div>
@@ -126,6 +127,18 @@
     </div>
   </section>
 
+  <!-- Events -->
+  <section class="section" id="events">
+    <div class="container">
+      <h2 class="section-title">Tulevat tapahtumat</h2>
+      <div class="divider"></div>
+      <div class="events-grid" id="eventsGrid">
+        <!-- Ladataan events.json -->
+      </div>
+      <p class="events-empty" id="eventsEmpty" style="display:none;">Ei tulevia tapahtumia. Seuraa meitä Instagramissa!</p>
+    </div>
+  </section>
+
   <!-- Contact -->
   <section class="section section-dark" id="contact">
     <div class="container">
@@ -208,6 +221,37 @@
         navToggle.classList.remove('active');
       });
     });
+
+    // Load events from JSON
+    fetch('events.json')
+      .then(r => r.json())
+      .then(events => {
+        const grid = document.getElementById('eventsGrid');
+        const empty = document.getElementById('eventsEmpty');
+        const today = new Date().toISOString().split('T')[0];
+        const upcoming = events.filter(e => e.date >= today);
+        if (upcoming.length === 0) {
+          empty.style.display = 'block';
+          return;
+        }
+        grid.innerHTML = upcoming.map(e => `
+          <div class="event-card">
+            <div class="event-date">
+              <span class="event-day">${new Date(e.date).getDate()}</span>
+              <span class="event-month">${new Date(e.date).toLocaleDateString('fi-FI', { month: 'short' })}</span>
+            </div>
+            <div class="event-info">
+              <h3>${e.title}</h3>
+              <p class="event-desc">${e.description}</p>
+              <div class="event-meta">
+                <span>${e.weekday} ${e.time}</span>
+                ${e.price ? `<span>${e.price}</span>` : ''}
+                ${e.age ? `<span>${e.age}</span>` : ''}
+              </div>
+            </div>
+          </div>
+        `).join('');
+      });
 
     // Smooth scroll
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {

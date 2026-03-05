@@ -1,0 +1,47 @@
+[
+  {
+    "date": "2026-03-07",
+    "weekday": "Lauantai",
+    "title": "Sherlock All In Disco",
+    "description": "DJ Side + DJ Kuuske",
+    "time": "22:00 - 04:00",
+    "price": "5\u20ac",
+    "age": "K-18"
+  },
+  {
+    "date": "2026-03-14",
+    "weekday": "Lauantai",
+    "title": "Sherlock Boogie",
+    "description": "DJ Willie",
+    "time": "22:00 - 04:00",
+    "price": "5\u20ac",
+    "age": "K-18"
+  },
+  {
+    "date": "2026-03-21",
+    "weekday": "Lauantai",
+    "title": "Coco Jamboo 90's Party",
+    "description": "DJ Capitan Ehi",
+    "time": "22:00 - 04:00",
+    "price": "5\u20ac",
+    "age": "K-18"
+  },
+  {
+    "date": "2026-03-28",
+    "weekday": "Lauantai",
+    "title": "Retropop + Suomi Poppi Bileet",
+    "description": "Urban Live DJ's",
+    "time": "22:00 - 04:00",
+    "price": "5\u20ac",
+    "age": "K-18"
+  },
+  {
+    "date": "2026-04-04",
+    "weekday": "Lauantai",
+    "title": "Sherlock Fiesta",
+    "description": "",
+    "time": "22:00 - 04:00",
+    "price": "5\u20ac",
+    "age": "K-18"
+  }
+]
